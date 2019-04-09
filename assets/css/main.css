@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Arvo:700|Open+Sans");
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 html {
   overflow-x: hidden;
 }
@@ -7,7 +7,7 @@ body {
   background: #fff;
   font-size: 14px;
   font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -23,7 +23,7 @@ h1, h2, h3, h4 {
   font-size: 38px;
   color: #222222;
   font-weight: 700;
-  font-family: 'Arvo', serif;
+  /* font-family: 'Arvo', serif; */
 }
 
 a {
@@ -43,7 +43,7 @@ a a:focus {
 
 p {
   font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
   margin: 0px;
   font-size: 14px;
 }
@@ -127,16 +127,17 @@ a:not([href]):not([tabindex]) {
 }
 
 .btn-common {
-  background-color: #5CDB95;
+  background-color: #5CDB95 !important;
   position: relative;
   z-index: 1;
   text-transform: uppercase;
 }
 
 .btn-common:hover {
-  color: #5CDB95;
-  background: transparent;
-  border: 1px dotted #5CDB95;
+  /* font-size: 13.5px !important; */
+  color: #5CDB95 !important;
+  background: transparent !important;
+  /* border: 1px dotted #5CDB95; */
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
   transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
@@ -325,11 +326,11 @@ hr {
 /* ==========================================================================
   8. Features Section Style
    ========================================================================== */
-#features {
+#Features {
   background: #fff;
 }
 
-#features .icon {
+#Features .icon {
   display: inline-block;
   width: 60px;
   height: 60px;
@@ -339,23 +340,23 @@ hr {
   z-index: 1;
 }
 
-#features .content-left span {
+#Features .content-left span {
   float: right;
 }
 
-#features .content-left .text {
+#Features .content-left .text {
   text-align: right;
 }
 
-#features .content-right span {
+#Features .content-right span {
   float: left;
 }
 
-#features .box-item {
+#Features .box-item {
   box-shadow: 0 0 12px #F4F4F4;
   padding: 15px;
   line-height: 22px;
-  margin-top: 30px;
+  margin-top: 70px;
   border-radius: 3px;
   background-color: #fff;
   -webkit-transition: all .3s ease-in-out;
@@ -365,7 +366,7 @@ hr {
   top: 0;
 }
 
-#features .box-item .icon {
+#Features .box-item .icon {
   text-align: center;
   margin: 12px;
   -webkit-transition: all 0.2s linear;
@@ -374,7 +375,7 @@ hr {
   transition: all 0.2s linear;
 }
 
-#features .box-item .icon i {
+#Features .box-item .icon i {
   color: #5CDB95;
   font-size: 30px;
   -webkit-transition: all 0.2s linear;
@@ -383,7 +384,7 @@ hr {
   transition: all 0.2s linear;
 }
 
-#features .box-item .text h4 {
+#Features .box-item .text h4 {
   cursor: pointer;
   font-size: 18px;
   font-weight: 500;
@@ -394,24 +395,24 @@ hr {
   transition: all 0.2s linear;
 }
 
-#features .box-item .text p {
+#Features .box-item .text p {
   font-size: 14px;
   line-height: 26px;
 }
 
-#features .box-item:hover {
+#Features .box-item:hover {
   box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
 }
 
-#features .box-item:hover h4 {
+#Features .box-item:hover h4 {
   color: #5CDB95;
 }
 
-#features .show-box {
+#Features .show-box {
   margin-top: 50px;
 }
 
-#features .show-box img {
+#Features .show-box img {
   width: 100%;
 }
 
@@ -478,7 +479,7 @@ hr {
   color: #fff;
 }
 
-#service {
+#Blockchain {
   position: relative;
 }
 
@@ -512,6 +513,22 @@ hr {
 .navbar-brand {
   position: relative;
   padding: 0px;
+}
+.navbar-button {
+  
+    font-size: 14px;
+    
+    padding: 6px 10px !important; 
+    cursor: pointer;
+    font-weight: 400;
+    color: #ffff !important;
+    border-radius: 30px;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    display: inline-block;
+  
 }
 
 .top-nav-collapse {
