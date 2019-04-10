@@ -106,8 +106,10 @@ a:not([href]):not([tabindex]) {
 }
 
 .btn {
-  font-size: 14px;
-  padding: 10px 30px;
+  font-size: 13px;
+  padding: 10px 20px;
+  /* font-size: 14px;
+  padding: 10px 30px; */
   cursor: pointer;
   font-weight: 400;
   color: #fff;
@@ -182,6 +184,13 @@ a:not([href]):not([tabindex]) {
 
 button:focus {
   outline: none !important;
+}
+
+.header-button-custom{
+  padding: 6px 15px !important;
+}
+.header-btn-margin{
+  margin: 3px 0px;
 }
 
 .icon-close, .icon-check {
@@ -789,6 +798,7 @@ hr {
 }
 
 #hero-area .contents .header-button .btn {
+
   margin-right: 10px;
 }
 
