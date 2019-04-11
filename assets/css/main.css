@@ -806,14 +806,7 @@ hr {
   background: #34363a;
 }
 
-/* Video */
-.video{
-  width: 100%;
-  height: 250px;
 
-
-
-}
 
 /* Team Item */
 .team-item:hover {
@@ -1451,3 +1444,19 @@ textarea {
 .social-icon .google:hover {
   background: #CE332A;
 }
+
+/* Video */
+.video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px; height: 0; overflow: hidden;
+}
+  
