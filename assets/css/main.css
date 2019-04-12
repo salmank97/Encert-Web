@@ -439,7 +439,8 @@ hr {
 }
 
 .services-item .icon {
-  border: 1px solid #f1f1f1;
+  background: #5CDB95;
+  border: 1px solid #5CDB95;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -452,7 +453,7 @@ hr {
 
 .services-item .icon i {
   font-size: 30px;
-  color: #5CDB95;
+  color: white;
   line-height: 70px;
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
@@ -1304,12 +1305,12 @@ textarea {
 
 /*cta
 */
-#cta{background: ;}
+#cta{background: ;}  
 
 /* Footer Area Start */
 .footer-area {
   position: relative;
-  padding: 150px 0px 0px;
+  padding: 40px 0px 0px;
   background: #fff;
 }
 
@@ -1390,7 +1391,7 @@ textarea {
 #copyright .copyright-content {
   border-top: 1px solid #d5d4e9;
   padding: 15px 0;
-  margin: 45px 0 0px;
+  margin: 25px 0 0px;
 }
 
 #copyright p {
@@ -1462,3 +1463,6 @@ textarea {
   box-shadow: 0 0 22px 0px rgba(0, 0, 0, 0.4);
 }
   
+.form-padding-left-right{
+  padding: 0px 25px;
+}

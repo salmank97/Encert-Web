@@ -9,7 +9,7 @@
 <g>
 	<g>
 		<defs>
-			<polygon id="SVGID_1_" points="1.8,537.8 1920,122.1 1920.1,1004.7 1.8,999.7 			"/>
+			<polygon id="SVGID_1_" points="1.8,537.8 1920,122.1 1920.1,999.7 0,999.7 			"/>
 		</defs>
 		<clipPath id="SVGID_2_">
 			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
@@ -27,7 +27,7 @@
 <g>
 	<g>
 		<defs>
-			<polygon id="SVGID_4_" points="1.8,537.8 1919.7,121.3 1920.1,1004.7 1.8,999.7 			"/>
+			<polygon id="SVGID_4_" points="0,537.8 1920,175.2 1920.1,1004.7 0,1000.2 			"/>
 		</defs>
 		<clipPath id="SVGID_5_">
 			<use xlink:href="#SVGID_4_"  style="overflow:visible;"/>
