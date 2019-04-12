@@ -773,7 +773,7 @@ hr {
 3. Hero Area
 ========================================================================== */
 #hero-area {
-  background-image: url(../img/hero-area.svg);
+  background-image: url(../img/banner.svg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1458,5 +1458,7 @@ textarea {
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 30px; height: 0; overflow: hidden;
+  outline: #5cdb95 solid 8px;
+  box-shadow: 0 0 22px 0px rgba(0, 0, 0, 0.4);
 }
   
